@@ -1,2 +1,2 @@
 # appstore.github.io
-A website desgin which store downloadable and use full apps.
+A website desgin which store downloadable apps and games.

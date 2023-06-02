@@ -1,5 +1,10 @@
 #navbar {
     box-shadow: 0px 0px 1px 2px rgba(53, 53, 53, 0.055);
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    background-color: white;
+    width: 100%;
 }
 #nav-logo {
     font-weight: 500;
@@ -34,7 +39,7 @@
 /* landing page css */
 
 .landing-pg {
-    margin: 1rem;
+    margin-top: 90px;
     margin-left: 6rem;
     margin-right: 6rem;
     margin-bottom: 2rem;
@@ -62,6 +67,10 @@
 
 /* trending section css */
 
+.trending {
+    flex-direction: column;
+}
+
 #tr-cards {
     display: flex;
     flex-direction: row;
@@ -73,7 +82,7 @@
     height: 64px;
     width: 64px;
     border-radius: 10px;
-    box-shadow: 0px 0px 3px 1px rgba(128, 128, 128, 0.45);
+    box-shadow: 0px 1px 3px 1px rgba(128, 128, 128, 0.45);
 }
 .trc-details {
     margin-left: 15px;
@@ -103,9 +112,63 @@
 #div-cards {
    padding: 0px;
 }
-.trending {
+
+/* recommended section css */
+
+.recommed {
     flex-direction: column;
 }
-.sec-heading {
-    margin-bottom: 0.7rem;
+#recd-cards {
+    display: flex;
+    padding: 0.9rem;
+    padding-right: 0px;
+    border: none;
+    border-radius: 12px;
+    width: 150px;
+    margin: 0px;
+}
+#recd-cards>img {
+    height: 120px;
+    width: 120px;
+    border-radius: 1.6rem;
+    box-shadow: 0px 1px 2px 2px rgba(128, 128, 128, 0.45);
+}
+.recd-details {
+    margin-top: 1rem;
+    margin-left: 0.4rem ;
+    line-height: 3px;
+}
+.recd-sec {
+    font-size: 14px;
+    font-weight: 480;
+}
+.recd-rate>i {
+    margin-left: 5px;
+}
+.recd-rate {
+    font-size: 0.8rem;
+    margin: 0px;
+}
+.card-hold:hover #recd-cards{
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+/* footer css */
+
+#footer {
+    box-shadow: 0px -1px 1px 1px rgba(128, 128, 128, 0.089);
+}
+
+.fot-icon {
+    color: gray;
+}
+.fot-icon:hover {
+    color: limegreen;
+}
+.fot-link {
+    text-decoration: none;
+}
+.copyrights {
+    background-color: rgb(94, 94, 94);
+    box-shadow: 0px -1px 2px 1px rgba(128, 128, 128, 0.358);
 }

@@ -25,6 +25,7 @@
         <link rel="stylesheet" href="/css/download.css">
         <link rel="stylesheet" href="/css/mystrap.css">
         <link rel="stylesheet" href="/css/head-foot.css">
+        <link rel="stylesheet" href="/css/dbar.css">
     </section>
 
 </head>
@@ -90,8 +91,20 @@
                 <a class="col-lgray">Rated for 7+</a>
               </div>
             </div>
+            <div class="download-hold">
+              <button onclick="hsprogress(); startDownload()">
+                <a id="download-txt" class="download-txt" >Download</a>
+                <div id="circular-progress" class="circular-progress">
+                  <span class="progress-value">0%</span>
+                </div>
+              </button>
+              <div id="progress-bar d-none">
+                <div id="progress"></div>
+              </div>
+            </div>
           </div>
         </div>
+        
       </div>
     </section>
 
@@ -265,6 +278,8 @@
           </div>
         </div>
     </footer>
+
+    <script src="/javascript/dbar.js"></script>
     
 </body>
 </html>

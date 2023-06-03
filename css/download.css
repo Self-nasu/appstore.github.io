@@ -1,0 +1,114 @@
+/* main download landing css */
+
+.d-landing {
+    padding-top: 30px;
+    background-image: url("/slider/coc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.up-grad {
+    background: radial-gradient(circle, rgba(248, 246, 246, 0) 0%, rgba(55, 55, 55, 0.6587885154061625) 47%, rgba(55, 55, 55, 1) 83%);
+
+}
+
+.main-hold {
+    margin-left: 7.3rem;
+    padding-bottom: 5rem;
+    padding-top: 11rem;
+}
+
+.game-heading {
+    display: flex;
+    flex-direction: column;
+    line-height: 3px;
+}
+.game-heading>h1 {
+    text-shadow: 1px 4px 5px rgba(0,0,0,0.27);
+}
+.game-down {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.8rem;
+    align-items: center;
+}
+.game-img>img {
+    width: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.331);
+}
+.game-detail {
+    margin-left: 1.2rem;
+    display: flex;
+}
+.rev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0.75rem;
+    border-right: 1px solid rgb(194, 194, 194);
+}
+.d-total {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    border-right: 1px solid rgb(195, 195, 195);
+    align-items: center;
+}
+.rated {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.75rem;
+    align-items: center;
+    margin-top: 5px;
+}
+/* explore section css */
+
+.trending {
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#tr-cards {
+    display: flex;
+    flex-direction: row;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 12px;
+}
+#tr-cards>img {
+    height: 64px;
+    width: 64px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px 1px rgba(128, 128, 128, 0.45);
+}
+.trc-details {
+    margin-left: 15px;
+    line-height: 4px;
+}
+.tr-numb {
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+.trc-rate>i {
+    margin-left: 5px;
+}
+.trc-rate {
+    font-size: 0.9rem;
+    margin: 0px;
+}
+.card-hold {
+    text-decoration: none;
+    color: black;
+}
+.card-hold:hover {
+    color: black;
+}
+.card-hold:hover #tr-cards{
+    background-color: rgba(128, 128, 128, 0.1);
+}
+#div-cards {
+   padding: 0px;
+}

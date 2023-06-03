@@ -1,6 +1,46 @@
 .col-gray {
     color: gray;
+    text-decoration: none;
+}
+.col-gray:hover {
+    color: gray;
 }
 .sec-heading {
     margin-bottom: 0.7rem;
+}
+
+.developer {
+    text-shadow: 1px 4px 5px rgba(0,0,0,0.27);
+    color: limegreen;
+}
+.col-white {
+    color: white;
+    text-shadow: 1px 4px 5px rgba(0,0,0,0.27);
+    text-decoration: none;
+}
+.col-white:hover {
+    color: white;
+}
+#star-icon {
+    font-size: 0.7rem;
+    padding-left: 4px;
+}
+.col-lgray {
+    color: rgb(183, 183, 183);
+    text-decoration: none;
+    text-shadow: 1px 4px 5px rgba(0,0,0,0.27);
+    font-size: 0.9rem;
+}
+.col-lgray:hover {
+    color: rgb(183, 183, 183);
+}
+.ratebox {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    font-size: 0.7rem;
+    margin-bottom: 3px;
 }

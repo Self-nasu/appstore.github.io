@@ -24,8 +24,7 @@ Vist The Website Now : https://timely-jelly-1f5360.netlify.app/
 
 **Hosting :** Netlify.
 
-
-
+**NOTE** This Webiste is not fully Mobile responsive . I am currently working on it. 
 
 ## Read Before Using
 

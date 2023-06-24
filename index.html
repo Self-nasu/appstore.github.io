@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 
-    <section> <!-- default head -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>App Store</title>
-    </section>
+        <title>Editor Store</title>
+        <link rel="icon" href="https://media.discordapp.net/attachments/1109774211087613952/1109774589594189904/mainlogo.png?width=585&height=585" style="zoom: 150%;" type="image/png">
+
 
     <section> <!-- bootstarp linking -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
@@ -18,10 +18,6 @@
 
     <section> <!-- animate.css cdn linking -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    </section>
-
-    <section> <!-- website favicons -->
-      <link rel="icon" href="mainimg/favicon.ico" type="image/x-icon">
     </section>
 
     <section> <!-- main  css linking -->
@@ -36,32 +32,25 @@
     <header class="head"> <!-- navigation bar -->
         <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-              <a id="nav-logo" class="navbar-brand" href="#"><img src="https://media.discordapp.net/attachments/1109774211087613952/1109774590084923423/mainlogodark.png?width=45&height=45">App Store</a>
+              <a id="nav-logo" class="navbar-brand" href=""><img src="https://media.discordapp.net/attachments/1109774211087613952/1109774590084923423/mainlogodark.png?width=45&height=45">Editor Store</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-lg-0">
                   <li class="nav-item">
-                    <a id="nav-active" class="nav-link" aria-current="page" href="#">Games</a>
+                    <a id="nav-active" class="nav-link nav-active" aria-current="page" href="categories/mobile.html">Mobile Apps</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Apps</a>
+                    <a class="nav-link" href="categories/pc.html">PC Apps</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Movies</a>
+                    <a class="nav-link" href="categories/music.html">Free Music</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Music</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Books</a>
+                    <a class="nav-link" href="categories/presets.html">Presets</a>
                   </li>
                 </ul>
-                <form class="d-flex src-hold">
-                  <input class="src-box" type="search" placeholder="Search" aria-label="Search">
-                  <button class="src-butt" type="submit"><i class="bi bi-search"></i></button>
-                </form>
               </div>
             </div>
           </nav>
@@ -104,7 +93,7 @@
     <section class="trending d-flex m-3">
 
         <div class="sec-heading container">
-          <h4 class="sec-head-txt">Trending Games</h4>
+          <h4 class="sec-head-txt">Mostly Used</h4>
         </div>
 
         <div class="container">
@@ -232,7 +221,7 @@
     <section class="recommed d-flex m-3">
 
       <div class="sec-heading container">
-        <h4 class="sec-head-txt">Recommended For You</h4>
+        <h4 class="sec-head-txt">Recommended For Mobile Users</h4>
       </div>
 
       <div class="container">
@@ -351,7 +340,7 @@
     <section class="recommed d-flex m-3">
 
       <div class="sec-heading container">
-        <h4 class="sec-head-txt">Recommended For You</h4>
+        <h4 class="sec-head-txt">Recommended For Pc Users</h4>
       </div>
 
       <div class="container">
@@ -470,36 +459,42 @@
     <footer id="footer" class="bg-white">
       <div class="container py-5">
         <div class="row py-4">
-          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
-            <p class="font-italic text-muted">Explore a world of entertainment and productivity like never before! 🌐📱🎮</p>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">Editor Store</h6>
+            <p class="font-italic text-muted">Explore a world of Apps used by all types of creators. A initiative by a cerators for creators! 🌐📱🎮</p>
             <ul class="list-inline mt-4">
-              <li class="list-inline-item"><a href="#" target="_blank" title="github"><i class="fot-icon bi bi-github"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fot-icon bi bi-facebook"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fot-icon bi bi-instagram"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank" title="linkedin"><i class="fot-icon bi bi-linkedin"></i></a></li>
+              <li class="list-inline-item"><a href="https://github.com/self-nasu" target="_blank" title="github"><i class="fot-icon bi bi-github"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/self.nasu/" target="_blank" title="instagram"><i class="fot-icon bi bi-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/nasu1708/" target="_blank" title="linkedin"><i class="fot-icon bi bi-linkedin"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.youtube.com/@decodenasu" target="_blank" title="YouTube"><i class="fot-icon bi bi-youtube"></i></a></li>
             </ul>
           </div>
           <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
             <h6 class="text-uppercase font-weight-bold mb-4">category</h6>
             <ul class="list-unstyled mb-0">
-              <li class="mb-2"><a href="#" class="text-muted fot-link">Action</a></li>
-              <li class="mb-2"><a href="#" class="text-muted fot-link">Arcade</a></li>
-              <li class="mb-2"><a href="#" class="text-muted fot-link">Racing</a></li>
-              <li class="mb-2"><a href="#" class="text-muted fot-link">Casuual</a></li>
+              <li class="mb-2"><a href="categories/mobile.html" class="text-muted fot-link">Mobile Apps</a></li>
+              <li class="mb-2"><a href="categories/pc.html" class="text-muted fot-link">Pc Apps</a></li>
+              <li class="mb-2"><a href="categories/music.html" class="text-muted fot-link">Free Music</a></li>
+              <li class="mb-2"><a href="categories/presets.html" class="text-muted fot-link">Presets</a></li>
             </ul>
           </div>
           <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
             <h6 class="text-uppercase font-weight-bold mb-4">other</h6>
             <ul class="list-unstyled mb-0">
-              <li class="mb-2"><a href="#" class="text-muted fot-link">Apps</a></li>
-              <li class="mb-2"><a href="#" class="text-muted fot-link">Movies</a></li>
-              <li class="mb-2"><a href="#" class="text-muted fot-link">Music</a></li>
-              <li class="mb-2"><a href="#" class="text-muted fot-link">Books</a></li>
+              <li class="mb-2"><a href="pages/Publish.html" class="text-muted fot-link">Publish App</a></li>
+              <li class="mb-2"><a href="pages/about.html" class="text-muted fot-link">About Us</a></li>
+              <li class="mb-2"><a href="pages/joinus.html" class="text-muted fot-link">Join Us</a></li>
+              <li class="mb-2"><a href="pages/contact.html" class="text-muted fot-link">Contact Us</a></li>
             </ul>
           </div>
-          <div class="col-lg-4 col-md-6 mb-lg-0">
-            <h6 class="text-uppercase font-weight-bold mb-4">Made By</h6>
-            <p class="text-muted mb-4">It is a Bootstrap 5 based desing made by nasu aka Naman jain and it is free to use. Get this Website Templete at my GitHub name as : <a class="fot-link" href="https://github.com/Self-nasu/appstore.github.io">appstore.github.io</a></p>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">Reach US at</h6>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><a href="https://goo.gl/maps/AnE18RaD9pQ1F3wo8" target="_blank" class="text-muted fot-link"><i class="bi bi-geo-alt-fill me-2"></i>Udaipur, Rajasthan. PIN.313702</a></li>
+              <li class="mb-2"><a href="mailto: nasuchacha1708@gmail.com" class="text-muted fot-link"><i class="bi bi-envelope-fill me-2"></i>nasuchacha1708@gmail.com</a></li>
+              <li class="mb-2"><a href="tel: +91 7877452256" class="text-muted fot-link"><i class="bi bi-telephone-fill me-2"></i>+91 7877452256</a></li>
+              <li class="mb-2"><a href="tel: +91 8905924424" class="text-muted fot-link"><i class="bi bi-telephone-fill me-2"></i>+91 8905924424</a></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -507,7 +502,7 @@
       <!-- Copyrights -->
       <div class="py-2 copyrights">
         <div class="container text-center">
-          <p class="text-light mb-0 py-2">© 2023 Naman Jain All rights reserved.</p>
+          <p class="text-light mb-0 py-2">© 2023 All rights reserved by Naman Jain (nasu.live).</p>
         </div>
       </div>
     </footer>

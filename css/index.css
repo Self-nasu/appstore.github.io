@@ -28,6 +28,15 @@
     background-color: rgb(218, 218, 218);
 }
 
+@media only screen and (max-width:575.98px) {
+    .landing-pg {
+        display: none;
+    }
+    .trending {
+        margin-top: 90px !important;
+    }
+}
+
 /* trending section css */
 
 .trending {
@@ -114,4 +123,11 @@
 }
 .card-hold:hover #recd-cards{
     background-color: rgba(128, 128, 128, 0.1);
+}
+
+@media only screen and (max-width:575.98px) {
+    #recd-cards>img {
+        height: 100px;
+        width: 100px;
+    }
 }

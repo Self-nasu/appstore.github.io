@@ -30,7 +30,7 @@ function show() {
 
 function startDownload() {
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', '/games/vscode.exe', true);
+    xhr.open('GET', '', true);
     xhr.responseType = 'blob';
     xhr.onload = function() {
         if (xhr.status === 200) {

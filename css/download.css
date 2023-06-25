@@ -2,10 +2,8 @@
 
 .d-landing {
     padding-top: 30px;
-    background-image: url("/slider/coc.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 .up-grad {
     background: radial-gradient(circle, rgba(248, 246, 246, 0) 0%, rgba(55, 55, 55, 0.6587885154061625) 47%, rgba(55, 55, 55, 1) 83%);

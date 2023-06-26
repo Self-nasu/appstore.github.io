@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Editor Choice</title>
-        <link rel="icon" href="https://media.discordapp.net/attachments/1109774211087613952/1109774589594189904/mainlogo.png?width=585&height=585" style="zoom: 150%;" type="image/png">
+        <link rel="icon" href="https://media.discordapp.net/attachments/1122391298557607976/1122751665246834758/Untitled-1.png?width=662&height=662" style="border-radius: 10px;" type="image/png">
 
 
     <section> <!-- bootstarp linking -->
@@ -23,23 +23,31 @@
     <section> <!-- main  css linking -->
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/mystrap.css">
-        <link rel="stylesheet" href="css/head-foot.css">       
+        <link rel="stylesheet" href="css/head-foot.css">   
+        <link rel="stylesheet" href="css/preload.css">    
     </section>
 
     
 </head>
 <body>
+
+    <div class="preloader">
+      <div class="loader">
+        <img src="https://media.discordapp.net/attachments/1122391298557607976/1122795874838380544/0001-0094.gif?width=662&height=662">
+      </div>
+    </div>
+
     <header class="head"> <!-- navigation bar -->
         <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-              <a id="nav-logo" class="navbar-brand" href=""><img src="https://media.discordapp.net/attachments/1109774211087613952/1109774590084923423/mainlogodark.png?width=45&height=45">Editor Choice</a>
+              <a id="nav-logo" class="navbar-brand" href=""><img class="me-2" src="https://media.discordapp.net/attachments/1122391298557607976/1122751665246834758/Untitled-1.png?" style="border-radius: 10px;">Editor Choice</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-lg-0">
                   <li class="nav-item">
-                    <a id="nav-active" class="nav-link nav-active" aria-current="page" href="categories/mobile.html">Mobile Apps</a>
+                    <a class="nav-link" aria-current="page" href="categories/mobile.html">Mobile Apps</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="categories/pc.html">PC Apps</a>
@@ -56,6 +64,29 @@
           </nav>
     </header>
 
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal header -->
+          <div class="modal-header">
+            <h5 class="modal-title">Get This At</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <p>To get this you should join the Discord Server...</p>
+          </div>
+    
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a type="button" class="btn btn-primary" href="https://discord.gg/8DKjSypFY7">Join Discord</a>
+          </div>
+        </div>
+      </div>
+    </div> <!-- Popup section -->
+    
     <section class="landing-pg">
       <div id="carouselExampleFade" class="carousel slide carousel-inner" data-bs-ride="carousel" data-bs-interval="4000">
         <div class="carousel-inner">
@@ -100,56 +131,56 @@
           <div class="row">
             <div id="div-cards" class="col-md-3">
               <!-- Card 1 -->
-              <a class="card-hold" href="">
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
                 <div id="tr-cards" class="card" >
                     <p class="tr-numb col-gray">1</p>
                     <img src="https://media.discordapp.net/attachments/1122391298557607976/1122403025617690674/ps-touch-cc-2019-apk.jpg?width=250&height=250" class="card-img-top" alt="Game Image">
                     <div class="trc-details">
                     <h6 class="trc-title">PS CC 2019</h6>
                     <p class="trc-sec col-gray">Mobile</p>
-                    <p class="trc-rate col-gray">4.5<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="trc-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
             </div>
             <div id="div-cards" class="col-md-3">
               <!-- Card 2 -->
-              <a class="card-hold" href="">
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
                 <div id="tr-cards" class="card" >
                     <p class="tr-numb col-gray">2</p>
                     <img src="https://media.discordapp.net/attachments/1122391298557607976/1122409082243010560/Appicon_KineMaster.png?width=661&height=662" class="card-img-top" alt="Game Image">
                     <div class="trc-details">
                     <h6 class="trc-title">Kinemaster Pro</h6>
                     <p class="trc-sec col-gray">Mobile</p>
-                    <p class="trc-rate col-gray">4.3<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="trc-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
             </div>
             <div id="div-cards" class="col-md-3">
               <!-- Card 3 -->
-              <a class="card-hold" href="">
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
                 <div id="tr-cards" class="card" >
                     <p class="tr-numb col-gray">3</p>
                     <img src="https://media.discordapp.net/attachments/1122391298557607976/1122410211454492772/unnamed.webp?width=300&height=300" class="card-img-top" alt="Game Image">
                     <div class="trc-details">
                     <h6 class="trc-title">PixelLab Pro</h6>
                     <p class="trc-sec col-gray">Mobile</p>
-                    <p class="trc-rate col-gray">4.2<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="trc-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
             </div>
             <div id="div-cards" class="col-md-3">
               <!-- Card 4 -->
-              <a class="card-hold" href="">
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
                 <div id="tr-cards" class="card" >
                     <p class="tr-numb col-gray">4</p>
                     <img src="https://media.discordapp.net/attachments/1122391298557607976/1122410761164169236/download.png?width=281&height=281" class="card-img-top" alt="Game Image">
                     <div class="trc-details">
                     <h6 class="trc-title">Alight Motion Pro</h6>
                     <p class="trc-sec col-gray">Mobile</p>
-                    <p class="trc-rate col-gray">4.0<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="trc-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
@@ -158,42 +189,42 @@
           <div class="row">
             <div id="div-cards" class="col-md-3">
               <!-- Card 5 -->
-              <a class="card-hold" href="https://getintopc.com/softwares/graphic-design/adobe-photoshop-2023-free-download-1743635/">
-                <div id="tr-cards" class="card" >
+              <a class="card-hold" >
+                <div id="tr-cards" class="card" data-bs-toggle="modal" data-bs-target="#myModal">
                     <p class="tr-numb col-gray">5</p>
                     <img src="https://media.discordapp.net/attachments/1106482661276520520/1106484171473440778/photoshop.png?width=640&height=640" class="card-img-top" alt="Game Image">
                     <div class="trc-details">
                     <h6 class="trc-title">Adobe Photoshop</h6>
                     <p class="trc-sec col-gray">PC</p>
-                    <p class="trc-rate col-gray">By GetIntoPC.com<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="trc-rate col-gray">By Adobe<i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
             </div>
             <div id="div-cards" class="col-md-3">
               <!-- Card 6 -->
-              <a class="card-hold" href="https://getintopc.com/softwares/video-editing/adobe-premiere-pro-2022-free-setup-download-4633857/">
-                <div id="tr-cards" class="card" >
+              <a class="card-hold" >
+                <div id="tr-cards" class="card" data-bs-toggle="modal" data-bs-target="#myModal">
                     <p class="tr-numb col-gray">6</p>
                     <img src="https://media.discordapp.net/attachments/1106482661276520520/1106484171104329739/premierpro.png?width=640&height=640" class="card-img-top" alt="Game Image">
                     <div class="trc-details">
                     <h6 class="trc-title">Adobe Premiere Pro</h6>
                     <p class="trc-sec col-gray">PC</p>
-                    <p class="trc-rate col-gray">By GetIntoPC.com<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="trc-rate col-gray">By Adobe<i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
             </div>
             <div id="div-cards" class="col-md-3">
               <!-- Card 7 -->
-              <a class="card-hold" href="https://getintopc.com/softwares/video-editing/adobe-after-effects-2023-free-download-5788914/">
-                <div id="tr-cards" class="card" >
+              <a class="card-hold" >
+                <div id="tr-cards" class="card" data-bs-toggle="modal" data-bs-target="#myModal">
                     <p class="tr-numb col-gray">7</p>
                     <img src="https://media.discordapp.net/attachments/1122391298557607976/1122413055293276230/Adobe_After_Effects_CC_icon.svg.png?width=680&height=662" class="card-img-top" alt="Game Image">
                     <div class="trc-details">
                     <h6 class="trc-title">Abobe After Effect</h6>
                     <p class="trc-sec col-gray">PC</p>
-                    <p class="trc-rate col-gray">By GetIntoPC.com<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="trc-rate col-gray">By Adobe<i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
@@ -229,7 +260,7 @@
 
             <div id="div-cards" class="col">
               <!-- Card 1 -->
-              <a class="card-hold" href="">
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
                 <div id="recd-cards" class="card" >
                     <img src="https://media.discordapp.net/attachments/1122391298557607976/1122420018869719100/download_1.png?width=281&height=281" class="card-img-top" alt="Game Image">
                     <div class="recd-details">
@@ -242,12 +273,12 @@
 
             <div id="div-cards" class="col">
               <!-- Card 1 -->
-              <a class="card-hold" href="">
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
                 <div id="recd-cards" class="card" >
                     <img src="https://media.discordapp.net/attachments/1122391298557607976/1122420724255174677/5ddac782cb815-384x384.png?width=480&height=480" class="card-img-top" alt="Game Image">
                     <div class="recd-details">
                     <p class="recd-sec col-drak">Filmora Pro</p>
-                    <p class="recd-rate col-gray">4.5<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
@@ -255,12 +286,12 @@
 
             <div id="div-cards" class="col">
               <!-- Card 1 -->
-              <a class="card-hold" href="">
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
                 <div id="recd-cards" class="card" >
                     <img src="https://media.discordapp.net/attachments/1122391298557607976/1122421069836455997/download.jpg?width=281&height=281" class="card-img-top" alt="Game Image">
                     <div class="recd-details">
                     <p class="recd-sec col-drak">PowerDirector Pro</p>
-                    <p class="recd-rate col-gray">4.5<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
@@ -268,12 +299,12 @@
 
             <div id="div-cards" class="col">
               <!-- Card 1 -->
-              <a class="card-hold" href="">
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
                 <div id="recd-cards" class="card" >
                     <img src="https://media.discordapp.net/attachments/1122391298557607976/1122421722545655828/download_1.jpg?width=281&height=281" class="card-img-top" alt="Game Image">
                     <div class="recd-details">
                     <p class="recd-sec col-drak">Node Video Pro</p>
-                    <p class="recd-rate col-gray">4.5<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
@@ -281,12 +312,12 @@
 
             <div id="div-cards" class="col">
               <!-- Card 1 -->
-              <a class="card-hold" href="">
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
                 <div id="recd-cards" class="card" >
                     <img src="recd_img/picsart.webp" class="card-img-top" alt="Game Image">
                     <div class="recd-details">
                     <p class="recd-sec col-drak">PicsArt Pro</p>
-                    <p class="recd-rate col-gray">4.5<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
@@ -294,12 +325,12 @@
 
             <div id="div-cards" class="col">
               <!-- Card 1 -->
-              <a class="card-hold" href="">
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
                 <div id="recd-cards" class="card" >
                     <img src="https://media.discordapp.net/attachments/1122391298557607976/1122422702632878120/unnamed_1.png?width=640&height=640" class="card-img-top" alt="Game Image">
                     <div class="recd-details">
                     <p class="recd-sec col-drak">Canva Pro</p>
-                    <p class="recd-rate col-gray">4.5<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
@@ -307,12 +338,12 @@
             
             <div id="div-cards" class="col">
               <!-- Card 1 -->
-              <a class="card-hold" href="">
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
                 <div id="recd-cards" class="card" >
                     <img src="https://media.discordapp.net/attachments/1122391298557607976/1122423220822364171/unnamed_2.png?width=640&height=640" class="card-img-top" alt="Game Image">
                     <div class="recd-details">
                     <p class="recd-sec col-drak">Adobe Rush</p>
-                    <p class="recd-rate col-gray">4.5<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
@@ -325,7 +356,7 @@
                     <img src="https://media.discordapp.net/attachments/1122391298557607976/1122424157506916422/download_2.png?width=281&height=281" class="card-img-top" alt="Game Image">
                     <div class="recd-details">
                     <p class="recd-sec col-drak">Snapseed</p>
-                    <p class="recd-rate col-gray">By PlayStore<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
@@ -348,12 +379,12 @@
 
             <div id="div-cards" class="col">
               <!-- Card 1 -->
-              <a class="card-hold" href="https://getintopc.com/softwares/video-editing/download-apple-final-cut-pro-x-10-4-3-for-mac/">
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
                 <div id="recd-cards" class="card" >
                     <img src="https://media.discordapp.net/attachments/1122391298557607976/1122477157160079370/download_2.jpg?width=281&height=281" class="card-img-top" alt="Game Image">
                     <div class="recd-details">
                     <p class="recd-sec col-drak">Final Cut Pro</p>
-                    <p class="recd-rate col-gray">By GetIntoPC.com<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="recd-rate col-gray">By Apple<i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
@@ -361,12 +392,12 @@
 
             <div id="div-cards" class="col">
               <!-- Card 1 -->
-              <a class="card-hold" href="https://getintopc.com/softwares/graphic-design/davinci-resolve-studios-2021-free-download-2410371/">
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
                 <div id="recd-cards" class="card" >
                     <img src="https://media.discordapp.net/attachments/1122391298557607976/1122476828993523784/images.jpg?width=281&height=281" class="card-img-top" alt="Game Image">
                     <div class="recd-details">
                     <p class="recd-sec col-drak">davinci resolve</p>
-                    <p class="recd-rate col-gray">By GetIntoPC.com<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="recd-rate col-gray">By Blackmagic<i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
@@ -374,12 +405,12 @@
 
             <div id="div-cards" class="col">
               <!-- Card 1 -->
-              <a class="card-hold" href="https://getintopc.com/softwares/photo-editing/adobe-lightroom-cc-2019-free-download-5421623/">
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
                 <div id="recd-cards" class="card" >
                     <img src="https://media.discordapp.net/attachments/1122391298557607976/1122477845697024040/download_3.png?width=283&height=277" class="card-img-top" alt="Game Image">
                     <div class="recd-details">
                     <p class="recd-sec col-drak">Adobe Lightroom</p>
-                    <p class="recd-rate col-gray">By GetIntoPC.com<i class="bi bi-star-fill d-none"></i></p>
+                    <p class="recd-rate col-gray">By Abobe<i class="bi bi-star-fill d-none"></i></p>
                     </div>
                 </div>
                 </a>
@@ -498,6 +529,6 @@
       </div>
     </footer>
     <!-- End -->
-
+    <script src="javascript/preload.js"></script>
 </body>
 </html>

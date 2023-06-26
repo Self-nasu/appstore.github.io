@@ -11,6 +11,9 @@
 #nav-logo {
     font-weight: 500;
 }
+#nav-logo>img {
+    height: 2.5rem;
+}
 
 #nav-active {
     color: limegreen;

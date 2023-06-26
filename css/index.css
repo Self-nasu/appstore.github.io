@@ -79,7 +79,8 @@
     color: black;
 }
 .card-hold:hover #tr-cards{
-    background-color: rgba(128, 128, 128, 0.1);
+    background-color: #6d6d6d23;
+    cursor: pointer;
 }
 #div-cards {
    padding: 0px;
@@ -122,7 +123,8 @@
     margin: 0px;
 }
 .card-hold:hover #recd-cards{
-    background-color: rgba(128, 128, 128, 0.1);
+    cursor: pointer;
+    background-color: #6d6d6d23;
 }
 
 @media only screen and (max-width:575.98px) {

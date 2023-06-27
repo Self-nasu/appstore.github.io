@@ -16,8 +16,9 @@
 }
 
 #nav-active {
-    color: limegreen;
-    border-bottom: 4px solid limegreen;    
+    color: #b300d7 !important;
+    font-weight: 500;
+    border-bottom: 4px solid #b300d7;    
 }
 .nav-link {
     margin-bottom: 4px;

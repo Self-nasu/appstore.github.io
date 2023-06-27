@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Editor Choice</title>
+        <link rel="icon" href="https://media.discordapp.net/attachments/1122391298557607976/1122751665246834758/Untitled-1.png?width=662&height=662" style="border-radius: 10px;" type="image/png">
+
+    <section> <!-- bootstarp linking -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    </section>
+
+    <section> <!-- animate.css cdn linking -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    </section>
+
+    <section> <!-- main  css linking -->
+        <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="/css/mystrap.css">
+        <link rel="stylesheet" href="/css/head-foot.css">   
+        <link rel="stylesheet" href="/css/preload.css">   
+    </section>
+
+    
+</head>
+<body>
+
+    <div class="preloader">
+      <div class="loader">
+        <img src="https://media.discordapp.net/attachments/1122391298557607976/1122795874838380544/0001-0094.gif?width=662&height=662">
+      </div>
+    </div>
+
+    <header class="head"> <!-- navigation bar -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a id="nav-logo" class="navbar-brand" href="/"><img class="me-2" src="https://media.discordapp.net/attachments/1122391298557607976/1122751665246834758/Untitled-1.png?" style="border-radius: 10px;">Editor Choice</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="mobile.html">Mobile Apps</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="nav-active" class="nav-link nav-active" href="pc.html">PC Apps</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="music.html">Free Music</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="presets.html">Presets</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:history.go(-1);">Go Back</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal header -->
+          <div class="modal-header">
+            <h5 class="modal-title">Get This At</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <p>To get this you should join the Discord Server...</p>
+          </div>
+    
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a type="button" class="btn btn-primary" href="https://discord.gg/8DKjSypFY7">Join Discord</a>
+          </div>
+        </div>
+      </div>
+    </div> <!-- Popup section -->
+
+    <section style="margin-top: 11vh;" class="trending d-flex">
+
+        <div class="sec-heading container">
+          <h4 class="sec-head-txt">Top in Pc Editing</h4>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div id="div-cards" class="col-md-3">
+              <!-- Card 1 -->
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div id="tr-cards" class="card" >
+                    <p class="tr-numb col-gray">1</p>
+                    <img src="https://media.discordapp.net/attachments/1106482661276520520/1106484171473440778/photoshop.png?width=640&height=640" class="card-img-top" alt="Game Image">
+                    <div class="trc-details">
+                    <h6 class="trc-title">Adobe Photoshop</h6>
+                    <p class="trc-sec col-gray">Pc Software</p>
+                    <p class="trc-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div id="div-cards" class="col-md-3">
+              <!-- Card 2 -->
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div id="tr-cards" class="card" >
+                    <p class="tr-numb col-gray">2</p>
+                    <img src="https://media.discordapp.net/attachments/1106482661276520520/1106484171104329739/premierpro.png?width=640&height=640" class="card-img-top" alt="Game Image">
+                    <div class="trc-details">
+                    <h6 class="trc-title">Adobe Premiere Pro</h6>
+                    <p class="trc-sec col-gray">Pc Software</p>
+                    <p class="trc-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div id="div-cards" class="col-md-3">
+              <!-- Card 3 -->
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div id="tr-cards" class="card" >
+                    <p class="tr-numb col-gray">3</p>
+                    <img src="https://media.discordapp.net/attachments/1122391298557607976/1122413055293276230/Adobe_After_Effects_CC_icon.svg.png?width=680&height=662" class="card-img-top" alt="Game Image">
+                    <div class="trc-details">
+                    <h6 class="trc-title">Abobe After Effect</h6>
+                    <p class="trc-sec col-gray">Pc Software</p>
+                    <p class="trc-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div id="div-cards" class="col-md-3">
+              <!-- Card 4 -->
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div id="tr-cards" class="card" >
+                    <p class="tr-numb col-gray">4</p>
+                    <img src="https://media.discordapp.net/attachments/1122391298557607976/1122477157160079370/download_2.jpg?width=281&height=281" class="card-img-top" alt="Game Image">
+                    <div class="trc-details">
+                    <h6 class="trc-title">Final Cut Pro</h6>
+                    <p class="trc-sec col-gray">Pc Software</p>
+                    <p class="trc-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                    </div>
+                </div>
+                </a>
+            </div>
+          </div>
+          <div class="row">
+            <div id="div-cards" class="col-md-3">
+              <!-- Card 1 -->
+              <a class="card-hold" href="https://www.blender.org/download/">
+                <div id="tr-cards" class="card" >
+                    <p class="tr-numb col-gray">5</p>
+                    <img src="https://media.discordapp.net/attachments/1106482661276520520/1106484170043170836/blender.png?width=640&height=655" class="card-img-top" alt="Game Image">
+                    <div class="trc-details">
+                    <h6 class="trc-title">Blender</h6>
+                    <p class="trc-sec col-gray">Pc Software</p>
+                    <p class="trc-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div id="div-cards" class="col-md-3">
+              <!-- Card 2 -->
+              <a class="card-hold" href="https://www.canva.com/">
+                <div id="tr-cards" class="card" >
+                    <p class="tr-numb col-gray">6</p>
+                    <img src="https://media.discordapp.net/attachments/1122391298557607976/1122422702632878120/unnamed_1.png?width=640&height=640" class="card-img-top" alt="Game Image">
+                    <div class="trc-details">
+                    <h6 class="trc-title">Canva Web</h6>
+                    <p class="trc-sec col-gray">Pc Software</p>
+                    <p class="trc-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div id="div-cards" class="col-md-3">
+              <!-- Card 3 -->
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div id="tr-cards" class="card" >
+                    <p class="tr-numb col-gray">7</p>
+                    <img src="https://media.discordapp.net/attachments/1122391298557607976/1122476828993523784/images.jpg?width=281&height=281" class="card-img-top" alt="Game Image">
+                    <div class="trc-details">
+                    <h6 class="trc-title">davinci resolve</h6>
+                    <p class="trc-sec col-gray">Pc Software</p>
+                    <p class="trc-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div id="div-cards" class="col-md-3">
+              <!-- Card 4 -->
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div id="tr-cards" class="card" >
+                    <p class="tr-numb col-gray">8</p>
+                    <img src="https://media.discordapp.net/attachments/1122391298557607976/1122420724255174677/5ddac782cb815-384x384.png?width=480&height=480" class="card-img-top" alt="Game Image">
+                    <div class="trc-details">
+                    <h6 class="trc-title">Filmora</h6>
+                    <p class="trc-sec col-gray">Pc Software</p>
+                    <p class="trc-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                    </div>
+                </div>
+                </a>
+            </div>
+          </div>
+        </div>
+        
+          
+    </section>
+
+    <section id="otherpc" class="recommed d-flex m-3">
+
+      <div class="sec-heading container">
+        <h4 class="sec-head-txt">Other PC Edting Software</h4>
+      </div>
+
+      <div class="container">
+        <div class="row">
+
+            <div id="div-cards" class="col">
+              <!-- Card 1 -->
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div id="recd-cards" class="card">
+                  <img src="https://media.discordapp.net/attachments/1122391298557607976/1123310028502335618/images.png?width=237&height=232" class="card-img-top" alt="Game Image">
+                  <div class="recd-details">
+                    <p class="recd-sec col-drak">Adobe Illustrator</p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="div-cards" class="col">
+              <!-- Card 1 -->
+              <a class="card-hold" href="https://www.photopea.com/">
+                <div id="recd-cards" class="card" >
+                    <img src="https://media.discordapp.net/attachments/1122391298557607976/1122487492776562719/download_4.png?width=281&height=281" class="card-img-top" alt="Game Image">
+                    <div class="recd-details">
+                    <p class="recd-sec col-drak">Photopea Web</p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                    </div>
+                </div>
+                </a>
+            </div>
+
+            <div id="div-cards" class="col">
+              <!-- Card 1 -->
+              <a class="card-hold" href="https://www.gimp.org/downloads/">
+                <div id="recd-cards" class="card" >
+                    <img src="https://media.discordapp.net/attachments/1122391298557607976/1122487076470927370/download_3.jpg?width=281&height=281" class="card-img-top" alt="Game Image">
+                    <div class="recd-details">
+                    <p class="recd-sec col-drak">GIMP</p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                    </div>
+                </div>
+                </a>
+            </div>
+
+            <div id="div-cards" class="col">
+              <!-- Card 1 -->
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div id="recd-cards" class="card" >
+                    <img src="https://media.discordapp.net/attachments/1122391298557607976/1122477845697024040/download_3.png?width=283&height=277" class="card-img-top" alt="Game Image">
+                    <div class="recd-details">
+                    <p class="recd-sec col-drak">Adobe Lightroom</p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                    </div>
+                </div>
+                </a>
+            </div>
+
+            <div id="div-cards" class="col">
+              <!-- Card 1 -->
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div id="recd-cards" class="card">
+                  <img src="https://media.discordapp.net/attachments/1122391298557607976/1122488731681693696/download_4.jpg?width=281&height=281" class="card-img-top" alt="Game Image">
+                  <div class="recd-details">
+                    <p class="recd-sec col-drak">Pixlr Pro</p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+             
+            <div id="div-cards" class="col">
+              <!-- Card 1 -->
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div id="recd-cards" class="card">
+                  <img src="https://media.discordapp.net/attachments/1122391298557607976/1123308498214715433/download_5.png?width=281&height=281" class="card-img-top" alt="Game Image">
+                  <div class="recd-details">
+                    <p class="recd-sec col-drak">Autodesk 3Ds max</p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="div-cards" class="col">
+              <!-- Card 1 -->
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div id="recd-cards" class="card">
+                  <img src="https://media.discordapp.net/attachments/1122391298557607976/1123309161116086313/1200px-C4D_Logo.png?width=662&height=662" class="card-img-top" alt="Game Image">
+                  <div class="recd-details">
+                    <p class="recd-sec col-drak">Cinema 4D</p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="div-cards" class="col">
+              <!-- Card 1 -->
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div id="recd-cards" class="card">
+                  <img src="https://media.discordapp.net/attachments/1122391298557607976/1123309561118458027/download_6.png?width=281&height=281" class="card-img-top" alt="Game Image">
+                  <div class="recd-details">
+                    <p class="recd-sec col-drak">ZBrush</p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="div-cards" class="col">
+              <!-- Card 1 -->
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div id="recd-cards" class="card">
+                  <img src="https://media.discordapp.net/attachments/1122391298557607976/1123310734730858568/2551636004.webp?width=280&height=280" class="card-img-top" alt="Game Image">
+                  <div class="recd-details">
+                    <p class="recd-sec col-drak">Adobe InDesign</p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="div-cards" class="col">
+              <!-- Card 1 -->
+              <a class="card-hold" href="https://www.figma.com/">
+                <div id="recd-cards" class="card">
+                  <img src="https://media.discordapp.net/attachments/1122391298557607976/1123311216421511270/download_8.png?width=281&height=281" class="card-img-top" alt="Game Image">
+                  <div class="recd-details">
+                    <p class="recd-sec col-drak">Figma Web</p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="div-cards" class="col">
+              <!-- Card 1 -->
+              <a class="card-hold" href="https://krita.org/en/">
+                <div id="recd-cards" class="card">
+                  <img src="https://media.discordapp.net/attachments/1122391298557607976/1123311714788708462/download_5.jpg?width=281&height=281" class="card-img-top" alt="Game Image">
+                  <div class="recd-details">
+                    <p class="recd-sec col-drak">Krita Free</p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="div-cards" class="col">
+              <!-- Card 1 -->
+              <a class="card-hold" data-bs-toggle="modal" data-bs-target="#myModal">
+                <div id="recd-cards" class="card">
+                  <img src="https://media.discordapp.net/attachments/1122391298557607976/1123312548809289889/download_9.png?width=148&height=133" class="card-img-top" alt="Game Image">
+                  <div class="recd-details">
+                    <p class="recd-sec col-drak">Sketch MacOS</p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="div-cards" class="col">
+              <!-- Card 1 -->
+              <a class="card-hold" href="https://www.behance.net/">
+                <div id="recd-cards" class="card">
+                  <img src="https://media.discordapp.net/attachments/1122391298557607976/1123314009874124860/download_10.png?width=281&height=281" class="card-img-top" alt="Game Image">
+                  <div class="recd-details">
+                    <p class="recd-sec col-drak">Behance Web</p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div id="div-cards" class="col">
+              <!-- Card 1 -->
+              <a class="card-hold" href="https://www.sketchup.com/try-sketchup">
+                <div id="recd-cards" class="card">
+                  <img src="https://media.discordapp.net/attachments/1122391298557607976/1123315015068422256/f2e7d6a306c9a1e064ca094f916ee8a63d5d5a37.jpeg?width=636&height=662" class="card-img-top" alt="Game Image">
+                  <div class="recd-details">
+                    <p class="recd-sec col-drak">Try SketchUp</p>
+                    <p class="recd-rate col-gray"><i class="bi bi-star-fill d-none"></i></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+        </div>
+      </div>
+          
+
+    </section>
+
+    <footer id="footer" class="bg-white">
+      <div class="container py-5">
+        <div class="row py-4">
+          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">category</h6>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><a href="mobile.html" class="text-muted fot-link">Mobile Apps</a></li>
+              <li class="mb-2"><a href="pc.html" class="text-muted fot-link">Pc Apps</a></li>
+              <li class="mb-2"><a href="music.html" class="text-muted fot-link">Free Music</a></li>
+              <li class="mb-2"><a href="presets.html" class="text-muted fot-link">Presets</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-6 mb-4 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">other</h6>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><a href="/pages/Publish.html" class="text-muted fot-link">Publish App</a></li>
+              <li class="mb-2"><a href="/pages/about.html" class="text-muted fot-link">About Us</a></li>
+              <li class="mb-2"><a href="/pages/joinus.html" class="text-muted fot-link">Join Us</a></li>
+              <li class="mb-2"><a href="/pages/contact.html" class="text-muted fot-link">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">Editor Choice</h6>
+            <p class="font-italic text-muted">Explore a world of Apps used by all types of creators. A initiative by a cerators for creators! 🌐📱🎮</p>
+            <ul class="list-inline mt-4">
+              <li class="list-inline-item"><a href="https://github.com/self-nasu" target="_blank" title="github"><i class="fot-icon bi bi-github"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/self.nasu/" target="_blank" title="instagram"><i class="fot-icon bi bi-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/nasu1708/" target="_blank" title="linkedin"><i class="fot-icon bi bi-linkedin"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.youtube.com/@decodenasu" target="_blank" title="YouTube"><i class="fot-icon bi bi-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Copyrights -->
+      <div class="py-2 copyrights">
+        <div class="container text-center">
+          <p class="text-light mb-0 py-2">© 2023 All rights reserved by Editor Choice.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- End -->
+    <script src="/javascript/preload.js"></script>
+</body>
+</html>

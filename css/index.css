@@ -103,7 +103,7 @@
 #recd-cards>img {
     height: 120px;
     width: 120px;
-    border-radius: 1.8rem;
+    border-radius: 1.5rem;
     box-shadow: 0px 0.9px 3px 1.5px rgba(128, 128, 128, 0.45);
 }
 .recd-details {

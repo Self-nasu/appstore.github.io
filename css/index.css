@@ -53,7 +53,7 @@
 #tr-cards>img {
     height: 64px;
     width: 64px;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 0px 1px 3px 1px rgba(128, 128, 128, 0.45);
 }
 .trc-details {
@@ -99,12 +99,14 @@
     border-radius: 12px;
     width: 150px;
     margin: 0px;
+    justify-content: center;
+    align-items: center;
 }
 #recd-cards>img {
     height: 120px;
     width: 120px;
-    border-radius: 1.6rem;
-    box-shadow: 0px 1px 2px 2px rgba(128, 128, 128, 0.45);
+    border-radius: 1.8rem;
+    box-shadow: 0px 0.9px 3px 1.5px rgba(128, 128, 128, 0.45);
 }
 .recd-details {
     margin-top: 1rem;

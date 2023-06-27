@@ -94,12 +94,10 @@
 #recd-cards {
     display: flex;
     padding: 0.9rem;
-    padding-right: 0px;
     border: none;
     border-radius: 12px;
-    width: 150px;
+    width: auto;
     margin: 0px;
-    justify-content: center;
     align-items: center;
 }
 #recd-cards>img {
@@ -110,7 +108,7 @@
 }
 .recd-details {
     margin-top: 1rem;
-    margin-left: 0.4rem ;
+    margin-left: 0rem ;
     line-height: 3px;
 }
 .recd-sec {

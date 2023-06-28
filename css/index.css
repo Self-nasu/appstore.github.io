@@ -99,6 +99,7 @@
     width: auto;
     margin: 0px;
     align-items: center;
+    transition: background-color 0.1s linear;
 }
 #recd-cards>img {
     height: 120px;

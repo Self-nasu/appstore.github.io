@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+#come-soon {
+    margin-top: 12vh;
+}
+
+#come-holder {
+    font-family: 'Ysabeau Infant';
+}
+.come-img {
+    height: 30vh;
+    margin-bottom: 3vh;
+    margin-left: 6vh;
+}

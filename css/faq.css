@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap');
+
+#faq-main {
+    margin-top: 11vh;
+}
+
+/* FAQ Form Section css */
+
+#faq-send {
+    border: 0.3px solid #a8a8a8;
+    padding: 1rem;
+    border-radius: 7px;
+    box-shadow: 0px 1.2px 2.5px 0.2px #24242445;
+}
+#faq-form {
+    display: flex;
+}
+
+.form-left>img {
+    height: 23vh;
+    border-radius: 15px;
+    margin-right: 1rem;
+}
+.form-right {
+    margin-left: auto;
+    width: 100%;
+}
+
+#form-title>a {
+    font-family: 'Geologica';
+    font-size: 1.5rem;
+}
+#form-title {
+    margin-bottom: 1.5vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    padding: 0.3rem;
+}
+.form-group {
+    display: flex;
+    gap: 0.4rem;
+}
+.form-control {
+    margin-bottom: 1.3vh;
+    border-radius: 0px;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: blueviolet;
+}
+.sub-btn {
+    border-radius: 0px;
+    width: 100%;
+    font-weight: 500;
+    font-family: 'Geologica';
+}
+.faq-formbtn {
+    display: flex;
+    gap: 1rem;
+}
+/* Main FAQ section css */
+
+.mb-hide {
+    text-decoration: none;
+    color: #454444;
+    display: block;
+}
+.mb-hide:hover {
+    color: #454444;
+}
+.pc-hide {
+    text-decoration: none;
+    color: #454444;
+    display: none;
+}
+.pc-hide:hover {
+    color: #454444;
+}
+
+#faq-heading {
+    font-family: 'Geologica';
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+#faq-heading>h1 {
+    font-size: 3rem;
+}
+
+/* FAQ sub nav bar css */
+
+#faq-nav {
+ border-top: 0.2px solid #b6b6b6;
+ border-bottom: 0.2px solid #b6b6b6;
+ padding-top: 0.5vh;
+ padding-bottom: 0.5vh;
+}
+
+.faq-nitem {
+    text-decoration: none;
+    color: #8a8a8a;
+    font-size: 1.2rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    border-right: 0.5px solid #303030;
+    border-left: 0.5px solid #303030;
+    cursor: pointer;
+}
+
+/* qestion css */
+
+.faq-body {
+    margin-top: 2vh;
+}
+
+.qsec-heading>a {
+    font-weight: bold;
+    font-family: 'Geologica';
+    font-size: 1.8rem;
+    border-bottom: 0.2px solid #8a8a8a;
+}
+.qsec-body {
+    margin-top: 2vh;
+}
+.qes {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.qes:hover {
+    color: black;
+}
+.ans {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #686868;
+}

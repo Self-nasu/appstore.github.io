@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download</title>
+    <title>Download Page Temp</title>
     <link rel="icon" href="https://media.discordapp.net/attachments/1109774211087613952/1109774589594189904/mainlogo.png?width=585&height=585" style="zoom: 150%;" type="image/png">
 
     <section> <!-- bootstarp linking -->
@@ -55,35 +55,37 @@
         </nav>
     </header>
 
-    <section class="d-landing" style="background-image: url('https://media.discordapp.net/attachments/1122391298557607976/1122407889051590717/iKWEyTe.jpg?width=1440&height=647');">
+    <section class="d-landing">
       <div class="up-grad">
         <div class="main-hold">
           <div class="game-heading">
-            <h1 class="text-light">PS CC 2019</h1>
-            <h6 class="developer">For Mobile</h6>
+            <h1 class="text-light">Clash of Clans</h1>
+            <h6 class="developer">Spuercell</h6>
+            <a class="col-lgray">In-app purchase</a>
           </div>
           <div class="game-down">
             <div class="game-img">
-              <img src="https://media.discordapp.net/attachments/1122391298557607976/1122403025617690674/ps-touch-cc-2019-apk.jpg">
+              <img src="/gameimg/clash of clans.webp">
             </div>
             <div class="game-detail">
-              <div class="rev d-none">
+              <div class="rev">
                 <a class="col-white">4.5<i id="star-icon" class="bi bi-star-fill"></i></a>
                 <a class="col-lgray">60.5 M reviews</a>
               </div>
-              <div class="d-total d-none">
+              <div class="d-total">
                 <a class="col-white">500M +</a>
                 <a class="col-lgray">Downloads</a>
               </div>
               <div class="rated">
-                <a class="col-lgray">Provided By</a>
-                <a class="ratebox">Nasu.live</a>
+                <a class="ratebox">7+</a>
+                <a class="col-lgray">Rated for 7+</a>
               </div>
             </div>
             <div class="download-hold">
-              <button>
+              <button onclick="hsprogress(); startDownload()">
                 <a href="" id="download-txt" class="download-txt" >Download</a>
                 <div id="circular-progress" class="circular-progress">
+                  <span class="progress-value">0%</span>
                 </div>
               </button>
               <div id="progress-bar d-none">
@@ -266,6 +268,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="/javascript/dbar.js"></script>
     
 </body>
 </html>
